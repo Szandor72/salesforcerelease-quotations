@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Development",
+    "title": "Lightning Components: Simplified Reactivity, Style Lightning Web Components with Custom Aura Design Tokens, Source Tracking for Lightning Web Components in Scratch Orgs",
+    "content": "All fields in a Lightning web component are now reactive. Use a custom Aura design token in Lightning web components. Track changes for Lightning web components in a scratch org when you use Salesforce command-line interface (CLI). We improved controls for Content Security Policy (CSP) and we have several critical updates.",
+    "href": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_lc.htm"
+  },
+  {
+    "category": "Development",
+    "title": "Einstein Platform Services: Image Recognition and Natural Language Processing",
+    "content": "Not a data scientist or machine-learning expert, but still want to integrate AI into your apps? Use the Einstein Platform Services APIs to AI-enable your apps with image recognition and natural language processing. Using the Einstein Vision APIs, you can leverage pre-trained classifiers or train custom classifiers to solve an array of image recognition use cases. With the Einstein Language APIs, you can harness the power of natural language processing to analyze text and infer the sentiment or intent behind the text. Make your apps smarter and look like a genius at the same time.",
+    "href": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_einstein_platform_services.htm"
+  },
+  {
+    "category": "Development",
+    "title": "Einstein Platform: Prediction Insight Details",
+    "content": "Communicate across Visualforce, Aura, and Lightning Web Components with Lightning Message Service. Visualforce now checks that strings are properly formatted as valid Apex IDs in its JavaScript remoting tool.",
+    "href": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_einstein_platform.htm"
+  },
+  {
+    "category": "Development",
+    "title": "Visualforce: Introducing Lightning Message Service (Beta), Type Checking for Remote Methods with ID Parameters",
+    "content": "Communicate across Visualforce, Aura, and Lightning Web Components with Lightning Message Service. Visualforce now checks that strings are properly formatted as valid Apex IDs in its JavaScript remoting tool.",
+    "href": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_vf.htm"
+  },
+  {
+    "category": "Development",
+    "title": "Apex",
+    "content": "Apex security features WITH SECURITY_ENFORCED and Security.stripInaccessible are now generally available. The new System.Finalizer interface (pilot) allows you to attach actions to queueable, asynchronous jobs. A critical update enables strict enforcement of Apex type visibility rules with the Type.newInstance method. The getDescribe method in the Schema namespace has a parameter that determines whether to front-load child relationships. Use the toString method to obtain the string representation of a Map, List, or Set class in the System namespace.",
+    "href": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/rn_apex.htm"
+  }
+]
