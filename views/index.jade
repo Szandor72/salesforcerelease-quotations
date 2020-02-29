@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1.slds-text-heading_large= title
-  p Welcome to #{title}
+  div.slds-m-around_medium
+    div.slds-card.slds-p-around_large
+      h1.slds-text-heading_large= title
+      div.slds-p-top_medium.slds-text-font_monospace= quotation
+  script.
+    setTimeout(function () { 
+      location.reload();
+    }, 60 * 1000);
