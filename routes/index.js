@@ -24,7 +24,10 @@ router.get("/", function(req, res, next) {
   if (quotation.indexOf("?") > -1) {
     quotation = quotation.substring(quotation.indexOf("?"), quotation.length);
     quotation = quotation.replace("? ", "");
-    quotation = quotation.trim() + ".";
+  }
+
+  if (!quotation.endsWith(".")) {
+    quotation = quotation + ".";
   }
 
   if (!topic) {
