@@ -11,6 +11,8 @@ router.get("/", function(req, res, next) {
   const title = randomEntry.title;
   const content = randomEntry.content;
 
+  let refreshInterval = req.query.interval || 10;
+
   let topic;
   if (title.indexOf(":") > -1) {
     topic = title.substring(0, title.indexOf(":"));
@@ -37,7 +39,8 @@ router.get("/", function(req, res, next) {
   res.render("index", {
     title: topic,
     heading: title,
-    quotation: quotation
+    quotation: quotation,
+    refreshInterval: refreshInterval
   });
 });
 
