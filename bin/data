@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var fs = require("fs");
+var getTopics = require("salesforcerelease-parser");
+var urls = require("../data/urls.json");
+
+async function writeDataJSON() {
+  let path = "./data/quotations.json";
+  const topics = await getTopics(urls);
+  let jsonContent = JSON.stringify(topics, null, 4);
+  fs.writeFile(path, jsonContent, "utf8", err => {
+    if (err) {
+      return console.log(err);
+    }
+  });
+}
+
+writeDataJSON();
